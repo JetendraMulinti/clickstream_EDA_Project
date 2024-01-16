@@ -1,0 +1,6 @@
+###### Run the below cmd for copying data from csv into table
+
+
+\copy public.clickstreamtable (sessionid, "Location", pagecategory, custid, age, countryname, colorname, "Date", "Order", page_clo
+thingmodel, modelphotography, price, pricegreaterthanavgprice, pageno, purchased) FROM 'D:\\JITHU\\Yeshiva - USA\\Personal\\Data Analytics\\Winter Proj
+ect\\clickstream_EDA_Project\\ClickStream_DataSave.csv' CSV HEADER QUOTE '"' NULL 'null'
